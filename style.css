@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("assets/pict/daysGoneWallpaperMain.jpg");
+}
+body #btnShowGame {
+  top: 90%;
+  left: 50%;
+  width: 110px;
+  padding: 3px;
+  font-size: 1.8em;
+  color: azure;
+  position: relative;
+  border-radius: 5px;
+  background: transparent;
+  font-family: wrong;
+  border: 1px solid azure;
+  transform: translate(-50%, -50%);
+}
+body #btnShowGame:hover {
+  color: black;
+  background-color: azure;
+}
+body .containInfo {
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: wrong;
+  src: url(assets/font/wrong.ttf);
+}/*# sourceMappingURL=style.css.map */
